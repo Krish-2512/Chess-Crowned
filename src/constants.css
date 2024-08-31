@@ -1,0 +1,20 @@
+
+:root{
+    --tile-size: 10vh;
+    --size:10vh;
+    --dark-tile:#ab7249;
+    
+    /* --bg-color:rgb(0, 0, 0); */
+    --bg-color:rgb(0,0,0);
+   
+    /* --highlight:rgba(0, 0, 0, 0.389); */
+    /* --bg-color:rgb(0, 0, 0); */
+    --highlight:rgba(0, 0, 0, 0.389);
+    
+  }
+
+  @media all and (max-width:45vh){
+    :root{
+        --tile-size:10vh;
+    }
+  }
