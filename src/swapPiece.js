@@ -450,6 +450,7 @@ const SwapButton = ({ selectedPiece, swapPiece, setSelectedPiece, setSwapPiece }
     // States to track the number of swaps allowed per color
     const [swapCount, setSwapCount] = useState({ white: 0, black: 0 });
     const [checkCount, setCheckCount] = useState({ white: 4, black: 4 });
+   
 
     const handleSwap = () => {
         if (selectedPiece && swapPiece) {
@@ -485,7 +486,7 @@ const SwapButton = ({ selectedPiece, swapPiece, setSelectedPiece, setSwapPiece }
                             ...prevCount,
                             [color]: prevCount[color] - 1
                         }));
-
+                        
                         setSelectedPiece(null);
                         setSwapPiece(null);
                     } else {
@@ -500,6 +501,7 @@ const SwapButton = ({ selectedPiece, swapPiece, setSelectedPiece, setSwapPiece }
         } else {
             console.log("SelectedPiece or SwapPiece is null.");
         }
+       
     };
 
     return (
