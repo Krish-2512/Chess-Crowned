@@ -58,19 +58,19 @@
 
 
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+
 import av from './assets/img/av2.gif'
 import './Home.css'
 import Button from './Button';
 
 import { Link } from "react-router-dom"
-import Instruction from './Instruction';
+// import Instruction from './Instruction';
 import queen from './assets/img/Queen.png'
 
 
 
 function Home() {
-  const location = useLocation();
+  // const location = useLocation();
 
   return (
     <div className="homepage">

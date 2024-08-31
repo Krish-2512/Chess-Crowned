@@ -35,7 +35,7 @@
 
 
 import React, { useReducer } from 'react';
-import './App.css'; // Import your main CSS file
+import './App.css'; 
 import Board from './components/Board/Board';
 import { initGameState } from './constant';
 import { reducer } from './reducer/reducer';
@@ -61,7 +61,7 @@ function App() {
 
     <Router>
       <Routes>
-     {/* <Route path="/" element={<Login/>}/> */}
+    
         <Route path="/" element={<Home/>}/>
         <Route path="/Game" element={<Board/>}/>
       </Routes>

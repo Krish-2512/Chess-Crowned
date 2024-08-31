@@ -94,9 +94,7 @@ body {
     background-color: #f4e50d;
 }
 
-/* .btn:active .btn_border-bg {
-    background-color: #ff0048;
-} */
+
 
 .btn_box {
     position: absolute;
@@ -146,7 +144,7 @@ body {
 .btn_box:nth-child(4):after {
     bottom: -14px;
     right: -20px;
-} */
+} 
 
 .btn:hover.btn_box {
     background-color: var(--primary-color);
