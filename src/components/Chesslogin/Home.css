@@ -158,8 +158,8 @@ margin-top: 35px;
 }
 
 .homepage {
-    /* background: url('./assets/img/homebg.png'); */
-    background-color: blue;
+    background: url('./assets/img/homebg.png');
+    /* background-color: blue; */
     background-position: center;
     background-size:cover;
     background-attachment:fixed;
