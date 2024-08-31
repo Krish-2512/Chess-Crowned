@@ -232,7 +232,7 @@ body {
     transition: background-color 0.3s 0.1s;
 }
 
-/* Hover states */
+
 .btn:hover .btn_border-item {
     width: 103.6%;
     height: 106.4%;
@@ -298,7 +298,7 @@ body {
 .btn_box:nth-child(4):after {
     bottom: -14px;
     right: -20px;
-} */
+} 
 
 .btn:hover.btn_box {
     background-color: var(--primary-color);
